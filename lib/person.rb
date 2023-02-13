@@ -1,4 +1,5 @@
 #setter method here
+class Person
 def name=(name)
     @name = name
   end
@@ -15,6 +16,3 @@ def name=(name)
     @job
   end
 end
-
-rose = Person.new
-rose.name=("Rose")
